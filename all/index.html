@@ -203,6 +203,12 @@ html.export .cur{display:none}
 .lb{display:inline-block;background:var(--ink);color:#fff;font-weight:800;font-size:clamp(10px,1.1vw,14px);padding:1px 8px;margin-right:6px}
 .qs{font-weight:800;font-size:clamp(12px,1.45vw,19px);line-height:1.45}
 .box .row{margin-bottom:.5em}
+
+/* 사람별 4색 */
+.gh.c2{background:#FF8A65}.gh.c3{background:#7CC8FF}
+.slide[data-p="0"]{--pc:#BF8CFF}.slide[data-p="1"]{--pc:#2FD38A}.slide[data-p="2"]{--pc:#FF6B45}.slide[data-p="3"]{--pc:#3AA8F0}
+.slide[data-p] .box,.slide[data-p] .box.k{box-shadow:var(--sh) var(--sh) 0 var(--pc)}
+.slide[data-p] .cast .bb{box-shadow:4px 4px 0 var(--pc)}
 </style>
 </head>
 <body><aside class="sidebar" id="sb" aria-label="페이지 목차"><span class="sb-label">목차</span><div id="sbl"></div></aside>
@@ -356,14 +362,14 @@ html.export .cur{display:none}
 </defs></svg>
 <div class="deck">
 <div class="stage" id="stage">
-<section class="slide bg-y" data-group="윤지혜 · 도입">
+<section class="slide bg-y" data-p="0" data-group="윤지혜 · 도입">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast lg" style="width:min(calc(40*var(--vw)),56vh);aspect-ratio:1"><i class="bgc" style="background:var(--purple)"></i><svg class="dc" style="left:0%;top:0%;width:22%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg class="dc" style="left:74%;top:0%;width:20%" viewBox="0 0 120 120"><use href="#cstar"/></svg><div class="chr" style="left:30%;top:24%;width:42%"><i class="bd" style="background:#FF9FB0"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><div class="chr" style="left:-2%;top:6%;width:30%"><i class="bd" style="background:#FFF3A0"></i><svg viewBox="0 0 120 120"><use href="#pennie"/></svg></div><div class="chr" style="left:74%;top:8%;width:30%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#notie"/></svg></div><div class="chr" style="left:-6%;top:56%;width:34%"><i class="bd" style="background:#FFE29A"></i><svg viewBox="0 0 120 120"><use href="#clocky"/></svg></div><div class="chr" style="left:72%;top:58%;width:32%"><i class="bd" style="background:#BFEFD0"></i><svg viewBox="0 0 120 120"><use href="#bottlie"/></svg></div><span class="bb" style="left:28%;top:-8%">독서모임 5인조 출동! 📚</span></div>
   <span class="tag">아주 작은 습관의 힘 · 독서모임 발제</span>
   <h1 class="big h1">윤지혜님의<br>발제문</h1>
   <div class="box c" style="align-self:flex-start;max-width:min(760px,90%)"><p class="lead">“나는 어떤 사람이고,<br>앞으로 어떤 사람이 되고 싶은가?”</p></div>
   <p class="sub">이미 가진 습관에서 현재의 나를 발견하고 → 원하는 정체성을 작은 행동으로 연결해요</p>
 </section>
-<section class="slide bg-c" data-group="윤지혜 · 나의 습관">
+<section class="slide bg-c" data-p="0" data-group="윤지혜 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#clocky"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">일어났어요! ⏰</span></div>
   <span class="tag">STEP 1 · 습관 ① 기상 직후 스트레칭</span>
   <h2 class="big h2 o">누운 채로<br>발목 돌리기부터</h2>
@@ -371,7 +377,7 @@ html.export .cur{display:none}
     <div class="box m"><h3>🔑 유지하는 비결</h3><p>기상 직후 누운 상태에서 할 수 있는 가장 쉬운 행동, 발목 돌리기부터 시작합니다. 어렵지 않고 즐거우며, 마치고 나면 몸이 한결 부드러워집니다.</p></div><div class="box c"><h3>📖 네 가지 법칙으로 보면</h3><p><b>신호</b> 기상 직후 · 침대 위 / <b>열망</b> 몸이 가벼워진다는 기대 / <b>반응</b> 옷 갈아입지 않고 바로, 작게 시작 / <b>보상</b> 어깨·허리·목이 금세 시원, 빠져도 다시 시작</p></div>
   </div>
 </section>
-<section class="slide bg-p" data-group="윤지혜 · 나의 습관">
+<section class="slide bg-p" data-p="0" data-group="윤지혜 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#FFDCDC"></i><svg viewBox="0 0 120 120"><use href="#notie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">기록해요! 📝</span></div>
   <span class="tag">STEP 1 · 습관 ② 저녁 대화와 기록</span>
   <h2 class="big h2 y">남편과 함께<br>이야기하고 기록하기</h2>
@@ -379,7 +385,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🔑 유지하는 비결</h3><p>하루를 마무리하며 생각과 경험을 나누는 시간이 즐겁고 소중합니다. 함께하는 파트너가 있어 자연스럽게 자리에 앉게 되고, 함께 살아온 시간이 쌓이는 것도 느낍니다.</p></div><div class="box c"><h3>📖 네 가지 법칙으로 보면</h3><p><b>신호</b> 저녁 9시 · 식탁 / <b>열망</b> 각자의 어젠다를 나누는 즐거움, 함께하는 힘 / <b>반응</b> 대화 정리 틀을 미리 마련 / <b>보상</b> 유대감, 노션 아카이빙과 블로그 포스팅</p></div>
   </div>
 </section>
-<section class="slide bg-m" data-group="윤지혜 · 나의 습관">
+<section class="slide bg-m" data-p="0" data-group="윤지혜 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#bottlie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">물통 챙겼죠? 💧</span></div>
   <span class="tag">STEP 1 · 습관 ③ 물통 챙기기</span>
   <h2 class="big h2 w">마실 물을<br>항상 소지하기</h2>
@@ -387,7 +393,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🔑 유지하는 비결</h3><p>사용하기 편한 물통을 고르고, 물통을 넣어 다닐 가방까지 준비했습니다. 원하는 온도의 물을 언제든 마실 수 있는 편리함이 커서 별다른 노력 없이 계속하게 됩니다.</p></div><div class="box c"><h3>📖 네 가지 법칙으로 보면</h3><p><b>신호</b> 외출할 때 물통 챙기기 / <b>열망</b> 정수기·종이컵 없이 언제든 마실 수 있음 / <b>반응</b> 500ml가 아닌 550ml 물통, 가방 구비 / <b>보상</b> 습관 자체가 보상</p></div>
   </div>
 </section>
-<section class="slide bg-y" data-group="윤지혜 · 나의 습관">
+<section class="slide bg-y" data-p="0" data-group="윤지혜 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">시스템이 답! ⚙️</span></div>
   <span class="tag">STEP 1 · 세 습관의 공통점</span>
   <h2 class="big h2 p">의지력보다<br>환경과 시스템</h2>
@@ -396,7 +402,7 @@ html.export .cur{display:none}
   </div>
   <div class="box k"><p class="lead">나는 이미 의지력보다 환경과 시스템으로 좋은 습관을 유지해 온 사람이었다.</p></div>
 </section>
-<section class="slide bg-c" data-group="윤지혜 · 나를 발견하기">
+<section class="slide bg-c" data-p="0" data-group="윤지혜 · 나를 발견하기">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#FFDCDC"></i><svg viewBox="0 0 120 120"><use href="#pennie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">일단 시작! ✏️</span></div>
   <span class="tag">STEP 2 · 변화시키고 싶은 모습</span>
   <h2 class="big h2 o">뜨끔했던<br>Motion vs Action</h2>
@@ -404,7 +410,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>📖 책 속 내용 (Chapter 11)</h3><p>계획하거나 준비하는 활동(Motion)과 실제 결과를 만들어 내는 행동(Action)은 다릅니다.</p></div><div class="box m"><h3>💭 나의 경험과 생각</h3><p>계획하는 것을 즐기지만 실행으로 이어지지 못한 계획도 많았습니다. 계획 과정에서 이미 만족해 버리기도 했습니다.</p></div><div class="box p"><h3>🌿 바꾸고 싶은 행동</h3><p>완벽하게 준비하는 데 에너지를 쏟기보다, 가장 작은 행동부터 시작해 보겠습니다.</p></div>
   </div>
 </section>
-<section class="slide bg-p" data-group="윤지혜 · 되고 싶은 나">
+<section class="slide bg-p" data-p="0" data-group="윤지혜 · 되고 싶은 나">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#notie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">연결해요! 🔗</span></div>
   <span class="tag">STEP 3 · 되고 싶은 사람</span>
   <h2 class="big h2 y">연결로 만드는<br>선순환</h2>
@@ -413,7 +419,7 @@ html.export .cur{display:none}
   </div>
   <div class="box k"><p class="lead">✍️ 나의 정체성 선언<br>나는 연결로 선순환을 만드는 사람이다.</p></div>
 </section>
-<section class="slide bg-m" data-group="윤지혜 · 작은 습관 설계">
+<section class="slide bg-m" data-p="0" data-group="윤지혜 · 작은 습관 설계">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#pennie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">나는 내 몸을 돌보는 사람 🦶</span></div>
   <span class="tag">STEP 4 · 작은 습관 설계 ①</span>
   <h2 class="big h2 w">발가락 운동을<br>꾸준히</h2>
@@ -421,14 +427,14 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 만들고 싶은 습관</h3><p>임신·출산 후 골반 통증과 족저근막염으로 걷기조차 어려웠던 경험을 통해 움직임의 소중함을 알았습니다. 일시적인 과제가 아니라 몸을 꾸준히 돌보는 생활 습관으로 만들고 싶습니다.</p></div><div class="box c"><h3>📖 적용하고 싶은 책 속 방법</h3><p>Ch 2 정체성 중심 습관 · Ch 5 습관 쌓기(아침 스트레칭에 연결) · Ch 6 환경 설계 · Ch 12~13 마찰 줄이기와 2분 규칙 · Ch 16 습관 추적</p></div>
   </div>
 </section>
-<section class="slide bg-o" data-group="윤지혜 · 작은 습관 설계">
+<section class="slide bg-o" data-p="0" data-group="윤지혜 · 작은 습관 설계">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#clocky"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">작게 시작! 🧩</span></div>
   <span class="tag">STEP 4 · 작은 습관 설계 ②</span>
   <h2 class="big h2 y">네 가지 법칙과<br>실천 선언</h2>
   <div class="grid g4"><div class="box c"><h3><span class="num">1</span>분명하게 (신호)</h3><p>아침 기상 스트레칭 후 이어서 침실에서 실시합니다.</p></div><div class="box p"><h3><span class="num">2</span>매력적으로 (열망)</h3><p>티눈 예방, 바레·필라테스를 바른 자세로, 엉덩이 힘으로 걷는 순환 잘 되는 몸을 기대합니다.</p></div><div class="box y"><h3><span class="num">3</span>하기 쉽게 (반응)</h3><p>횟수를 줄여서 시작합니다.</p></div><div class="box m"><h3><span class="num">4</span>만족스럽게 (보상)</h3><p>완수 후 스티커로 성과를 가시화하고, 그룹에서 응원받습니다.</p></div></div>
   <div class="box k"><p class="lead">나는 아침 스트레칭을 마친 뒤, 침실에서 발가락을 가볍게 움직이는 운동을 몇 회부터 시작하겠습니다.</p></div>
 </section>
-<section class="slide bg-c" data-group="윤지혜 · 질문">
+<section class="slide bg-c" data-p="0" data-group="윤지혜 · 질문">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(30*var(--vw)),36vh);aspect-ratio:1.5"><div class="chr" style="left:0%;top:0%;width:40%"><i class="bd" style="background:var(--yellow)"></i><svg viewBox="0 0 120 120"><use href="#pennie"/></svg></div><div class="chr" style="left:60%;top:0%;width:40%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#bottlie"/></svg></div><div class="chr" style="left:31%;top:30%;width:38%"><i class="bd" style="background:var(--purple)"></i><svg viewBox="0 0 120 120"><use href="#clocky"/></svg></div><svg class="dc" style="left:-10%;top:62%;width:12%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:94%;top:-6%;width:13%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-40%;top:0%">함께 이야기해요! 💛</span></div>
   <span class="tag">STEP 5 · 질문하기</span>
   <h2 class="big h2 o">행복은<br>욕망이 없는 상태?</h2>
@@ -438,14 +444,14 @@ html.export .cur{display:none}
   <div class="box k"><p class="lead">행복은 무언가를 이루었을 때인가요, 이루어 가는 과정인가요, 지금 이 순간 만족할 때인가요? 우리는 계속 바라면서도 행복할 수 있을까요?</p></div>
 </section>
 
-<section class="slide bg-y" data-group="주은정 · 도입">
+<section class="slide bg-y" data-p="1" data-group="주은정 · 도입">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast lg" style="width:min(calc(40*var(--vw)),56vh);aspect-ratio:1"><i class="bgc" style="background:var(--purple)"></i><svg class="dc" style="left:0%;top:0%;width:22%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg class="dc" style="left:74%;top:0%;width:20%" viewBox="0 0 120 120"><use href="#cstar"/></svg><div class="chr" style="left:26%;top:20%;width:48%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><div class="chr" style="left:-6%;top:52%;width:38%"><i class="bd" style="background:#FFE29A"></i><svg viewBox="0 0 120 120"><use href="#sproutie"/></svg></div><div class="chr" style="left:68%;top:52%;width:34%"><i class="bd" style="background:#FFDCDC"></i><svg viewBox="0 0 120 120"><use href="#heartie"/></svg></div><span class="bb" style="left:30%;top:-6%">발제 시작! ✏️</span></div>
   <span class="tag">아주 작은 습관의 힘 · 독서모임 발제</span>
   <h1 class="big h1">주은정님의<br>발제문</h1>
   <div class="box c" style="align-self:flex-start;max-width:min(760px,90%)"><p class="lead">“나는 어떤 사람이고,<br>앞으로 어떤 사람이 되고 싶은가?”</p></div>
   <p class="sub">나의 습관 → 변화시키고 싶은 모습 → 되고 싶은 사람 → 작은 습관 설계</p>
 </section>
-<section class="slide bg-c" data-group="주은정 · 나의 습관">
+<section class="slide bg-c" data-p="1" data-group="주은정 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#sproutie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">습관 세 가지! 🌱</span></div>
   <span class="tag">STEP 1 · 나의 습관 한눈에</span>
   <h2 class="big h2 o">자랑하고 싶은<br>습관 세 가지</h2>
@@ -458,7 +464,7 @@ html.export .cur{display:none}
     <div class="box chart"><div class="ct">📊 습관과 연결한 책 파트 <small>(인용 횟수)</small></div><div class="cols" style="--max:2;--bh:clamp(60px,14vh,120px)"><div class="colw"><span class="pl" style="--k:0"><b class="cu" data-count="1">1</b>회</span><i class="bar pop" style="--v:1;--k:0;background:var(--yellow)"></i><span class="cn">Part2 분명</span></div><div class="colw"><span class="pl" style="--k:1"><b class="cu" data-count="1">1</b>회</span><i class="bar pop" style="--v:1;--k:1;background:var(--mint)"></i><span class="cn">Part3 매력</span></div><div class="colw"><span class="pl" style="--k:2"><b class="cu" data-count="1">1</b>회</span><i class="bar pop" style="--v:1;--k:2;background:var(--purple)"></i><span class="cn">Part4 쉬움</span></div><div class="colw"><span class="pl" style="--k:3"><b class="cu" data-count="2">2</b>회</span><i class="bar pop" style="--v:2;--k:3;background:var(--orange)"></i><span class="cn">Part6 최고의 습관</span></div></div></div>
   </div>
 </section>
-<section class="slide bg-p" data-group="주은정 · 나의 습관">
+<section class="slide bg-p" data-p="1" data-group="주은정 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#FFDCDC"></i><svg viewBox="0 0 120 120"><use href="#heartie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">좋은 기분! 😊</span></div>
   <span class="tag">STEP 1 · 습관 ① 아침 명상</span>
   <h2 class="big h2 y">누운 채로<br>아침 명상</h2>
@@ -466,7 +472,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 나의 습관</h3><p>침대에서 누운 채로 아침 명상하기</p></div><div class="box m"><h3>🔑 유지하는 비결</h3><p>알람을 끄고 누운 상태로 바로 하니 쉽게 시작합니다. 유튜브의 ‘자기감사’ 말들을 들으며 이미지화하면 좋은 기분으로 하루를 시작할 수 있어 유지됩니다.</p></div><div class="box c"><h3>📖 연결되는 책의 내용</h3><p>Part3 <b>매력적이어야 달라진다</b> — 습관이 긍정적인 느낌과 연결되면 매력적이게 되고, 명상 때의 긍정적 느낌이 습관을 유지하게 합니다.</p></div>
   </div>
 </section>
-<section class="slide bg-m" data-group="주은정 · 나의 습관">
+<section class="slide bg-m" data-p="1" data-group="주은정 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">쉐도잉! 🗣️</span></div>
   <span class="tag">STEP 1 · 습관 ② 영어 쉐도잉</span>
   <h2 class="big h2 w">로션 바르며<br>영어 쉐도잉</h2>
@@ -474,7 +480,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 나의 습관</h3><p>세수 후 로션을 바르는 시간에 영어 쉐도잉하기</p></div><div class="box p"><h3>🔑 유지하는 비결</h3><p>하루 두 번 로션 바르는 시간을 짧은 영어 영상 쉐도잉과 묶었습니다. 화장대에 서면 자동으로 영상을 틀게 되어 빼먹지 않고 이어갑니다.</p></div><div class="box c"><h3>📖 연결되는 책의 내용</h3><p>Part2 <b>분명해야 달라진다</b> — 습관에 장소(화장대)와 시간(로션을 바르는 시간)을 부여했습니다.</p></div>
   </div>
 </section>
-<section class="slide bg-o" data-group="주은정 · 나의 습관">
+<section class="slide bg-o" data-p="1" data-group="주은정 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#girl"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">스트레칭! 🧘</span></div>
   <span class="tag">STEP 1 · 습관 ③ 스트레칭</span>
   <h2 class="big h2 y">등교 직후<br>스트레칭</h2>
@@ -482,7 +488,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 나의 습관</h3><p>막내 등교 직후 스트레칭하기</p></div><div class="box m"><h3>🔑 유지하는 비결</h3><p>막내가 등교 준비를 하는 동안 거실에 요가매트를 깔아 둡니다.</p></div><div class="box c"><h3>📖 연결되는 책의 내용</h3><p>Part4 <b>쉬워야 달라진다</b> — 아주 간단한 습관이 이후 몇 분 또는 몇 시간 동안의 행동을 결정합니다. 배웅 후 바로 매트에 앉아 스트레칭하고, 정리한 뒤 다른 일로 넘어갑니다.</p></div>
   </div>
 </section>
-<section class="slide bg-c" data-group="주은정 · 나를 발견하기">
+<section class="slide bg-c" data-p="1" data-group="주은정 · 나를 발견하기">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#FFDCDC"></i><svg viewBox="0 0 120 120"><use href="#coinie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">뜨끔! 😅</span></div>
   <span class="tag">STEP 2 · 변화시키고 싶은 모습</span>
   <h2 class="big h2 p">가장 뜨끔했던<br>내용은?</h2>
@@ -497,7 +503,7 @@ html.export .cur{display:none}
     </div>
   </div>
 </section>
-<section class="slide bg-y" data-group="주은정 · 되고 싶은 나">
+<section class="slide bg-y" data-p="1" data-group="주은정 · 되고 싶은 나">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#baby"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">조금씩 성장! 🌱</span></div>
   <span class="tag">STEP 3 · 되고 싶은 사람</span>
   <h2 class="big h2 o">내가 되고 싶은<br>사람</h2>
@@ -507,7 +513,7 @@ html.export .cur{display:none}
   </div>
   <div class="box k"><p class="lead">✍️ 나의 정체성 선언<br>나는 매일매일 조금씩 성장하는 사람이다.</p></div>
 </section>
-<section class="slide bg-p" data-group="주은정 · 작은 습관 설계">
+<section class="slide bg-p" data-p="1" data-group="주은정 · 작은 습관 설계">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">기사 한 편! 📰</span></div>
   <span class="tag">STEP 4 · 작은 습관 설계 ①</span>
   <h2 class="big h2 y">경제기사<br>정리 습관</h2>
@@ -515,13 +521,13 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 만들거나 바꾸고 싶은 습관</h3><p>매일 신문을 읽는 것을 넘어, 특정 기사를 선택해 정리하는 습관을 들이고 싶다. ⇒ 경제기사 하나만 정독하고 기사 내 주요 개념 또는 새로운 개념을 간단히 정리하기</p></div><div class="box m"><h3>📖 적용하고 싶은 책 속 방법 · Part6 ‘습관의 반격’ (p. 308)</h3><p>습관을 체득하는 것만으로는 개선이 일어나지 않는다. 계속해서 조정해 나가야 한다.</p></div>
   </div>
 </section>
-<section class="slide bg-m" data-group="주은정 · 작은 습관 설계">
+<section class="slide bg-m" data-p="1" data-group="주은정 · 작은 습관 설계">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#sproutie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">네 가지 법칙! 🧩</span></div>
   <span class="tag">STEP 4 · 작은 습관 설계 ②</span>
   <h2 class="big h2 w">네 가지 법칙<br>적용하기</h2>
   <div class="grid g4"><div class="box c"><h3><span class="num">1</span>분명하게 (신호)</h3><p>아이들이 아침식사를 하는 동안 우편함에서 신문을 가져온다.</p></div><div class="box p"><h3><span class="num">2</span>매력적으로 (열망)</h3><p>주식장이 시작되기 전 경제·산업 분야의 새로운 정보를 확인하고 싶다.</p></div><div class="box y"><h3><span class="num">3</span>하기 쉽게 (반응)</h3><p>펜을 쥐고 경제노트를 옆에 두고 기사 제목·부제를 읽다가, 마음에 드는 기사는 줄을 그으며 읽고 노트에 정리한다. 몰랐던 개념은 컴퓨터를 켜면 제일 먼저 찾아 함께 정리한다.</p></div><div class="box o"><h3><span class="num">4</span>만족스럽게 (보상)</h3><p>경제노트가 채워질 때마다 지식이 늘고 조금씩 성장하는 만족감을 느낀다.</p></div></div>
 </section>
-<section class="slide bg-c" data-group="주은정 · 실천 선언">
+<section class="slide bg-c" data-p="1" data-group="주은정 · 실천 선언">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(30*var(--vw)),36vh);aspect-ratio:1.5"><div class="chr" style="left:0%;top:0%;width:40%"><i class="bd" style="background:var(--yellow)"></i><svg viewBox="0 0 120 120"><use href="#girl"/></svg></div><div class="chr" style="left:60%;top:0%;width:40%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><div class="chr" style="left:31%;top:30%;width:38%"><i class="bd" style="background:var(--purple)"></i><svg viewBox="0 0 120 120"><use href="#sproutie"/></svg></div><svg class="dc" style="left:-10%;top:62%;width:12%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:94%;top:-6%;width:13%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-40%;top:0%">함께해요! 💛</span></div>
   <span class="tag">STEP 4 · 작은 습관 설계 ③</span>
   <h2 class="big h2 o">나의 작은<br>실천 선언</h2>
@@ -529,14 +535,14 @@ html.export .cur{display:none}
   <div class="box y" style="align-self:flex-start"><p>🌷 모든 질문에 정답은 없어요. 각자의 경험과 생각을 모임에서 나눠요.</p></div>
 </section>
 
-<section class="slide bg-y" data-group="오미숙 · 도입">
+<section class="slide bg-y" data-p="2" data-group="오미숙 · 도입">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast lg" style="width:min(calc(40*var(--vw)),56vh);aspect-ratio:1"><i class="bgc" style="background:var(--purple)"></i><svg class="dc" style="left:0%;top:0%;width:22%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg class="dc" style="left:74%;top:0%;width:20%" viewBox="0 0 120 120"><use href="#cstar"/></svg><div class="chr" style="left:30%;top:24%;width:42%"><i class="bd" style="background:#FF9FB0"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><div class="chr" style="left:-2%;top:6%;width:30%"><i class="bd" style="background:#FFF3A0"></i><svg viewBox="0 0 120 120"><use href="#pennie"/></svg></div><div class="chr" style="left:74%;top:8%;width:30%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#notie"/></svg></div><div class="chr" style="left:-6%;top:56%;width:34%"><i class="bd" style="background:#FFE29A"></i><svg viewBox="0 0 120 120"><use href="#clocky"/></svg></div><div class="chr" style="left:72%;top:58%;width:32%"><i class="bd" style="background:#BFEFD0"></i><svg viewBox="0 0 120 120"><use href="#bottlie"/></svg></div><span class="bb" style="left:28%;top:-8%">독서모임 5인조 출동! 📚</span></div>
   <span class="tag">아주 작은 습관의 힘 · 독서모임 발제</span>
   <h1 class="big h1">오미숙님의<br>발제문</h1>
   <div class="box c" style="align-self:flex-start;max-width:min(760px,90%)"><p class="lead">“나는 어떤 사람이고,<br>앞으로 어떤 사람이 되고 싶은가?”</p></div>
   <p class="sub">이미 가진 습관에서 현재의 나를 발견하고 → 원하는 정체성을 작은 행동으로 연결해요</p>
 </section>
-<section class="slide bg-c" data-group="오미숙 · 나의 습관">
+<section class="slide bg-c" data-p="2" data-group="오미숙 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#notie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">좋은 하루! 😍</span></div>
   <span class="tag">STEP 1 · 습관 ① 배웅 인사</span>
   <h2 class="big h2 o">“잘 다녀와,<br>좋은 하루 돼”</h2>
@@ -544,7 +550,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 나의 습관</h3><p>아침 출근길·등교길에 배웅 인사로 “잘 다녀와♡ 좋은 하루 돼 😍”를 건넵니다.</p></div><div class="box m"><h3>🔑 유지하는 비결</h3><p>인사를 하면서 가장 먼저 좋아지는 것은 나의 기분입니다. 준비 과정이나 그때의 기분과 상관없이 꼭 합니다.</p></div><div class="box c"><h3>📖 연결되는 책의 내용</h3><p>습관은 <b>만족스러워야</b> 한다는 네 번째 법칙과 연결됩니다.</p></div>
   </div>
 </section>
-<section class="slide bg-p" data-group="오미숙 · 나의 습관">
+<section class="slide bg-p" data-p="2" data-group="오미숙 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#BFEFD0"></i><svg viewBox="0 0 120 120"><use href="#bottlie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">쉐이크 한 잔! 💪</span></div>
   <span class="tag">STEP 1 · 습관 ② 아침 단백질</span>
   <h2 class="big h2 y">아침 식단은<br>단백질로</h2>
@@ -552,7 +558,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 나의 습관</h3><p>아침 식단으로 단백질을 먹습니다.</p></div><div class="box m"><h3>🔑 유지하는 비결</h3><p>설거지하기 귀찮음을 막기 위해 가족 수대로 쉐이크 통을 준비하고, 함께 인증하는 단톡방을 운영합니다.</p></div><div class="box c"><h3>📖 연결되는 책의 내용</h3><p><b>환경이 행동을 결정한다.</b> 주위 사람에 따라 내 습관은 변할 수 있습니다.</p></div>
   </div>
 </section>
-<section class="slide bg-m" data-group="오미숙 · 나의 습관">
+<section class="slide bg-m" data-p="2" data-group="오미숙 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#FFF3A0"></i><svg viewBox="0 0 120 120"><use href="#pennie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">가까워서 쉬워요! 🏃</span></div>
   <span class="tag">STEP 1 · 습관 ③ 주 3회 운동</span>
   <h2 class="big h2 w">가까운 곳에서<br>주 3회 운동</h2>
@@ -560,7 +566,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 나의 습관</h3><p>일주일에 세 번 운동합니다.</p></div><div class="box m"><h3>🔑 유지하는 비결</h3><p>가까운 곳에 운동할 장소를 정했습니다. (아파트 단지 내 센터)</p></div><div class="box c"><h3>📖 연결되는 책의 내용</h3><p>습관은 <b>쉬워야</b> 한다는 세 번째 법칙과 연결됩니다.</p></div>
   </div>
 </section>
-<section class="slide bg-y" data-group="오미숙 · 나를 발견하기">
+<section class="slide bg-y" data-p="2" data-group="오미숙 · 나를 발견하기">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#FFE29A"></i><svg viewBox="0 0 120 120"><use href="#clocky"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">일단 실행! ⏰</span></div>
   <span class="tag">STEP 2 · 변화시키고 싶은 모습</span>
   <h2 class="big h2 p">뜨끔했던<br>동작과 실행</h2>
@@ -568,7 +574,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>📖 책 속 내용 (185쪽~)</h3><p>동작과 실행은 다릅니다. 동작은 마치 행동한 것 같은 착각을 만듭니다.</p></div><div class="box m"><h3>💭 나의 경험과 생각</h3><p>생각만 하고 행동으로 옮기지 않아 미뤄졌다가 긴박하게 처리한 일들이 있습니다. 머릿속에서 여러 변수를 대비하고 구상만 하다 실행하지 않아 성장으로 연결되지 못했습니다.</p></div><div class="box p"><h3>🌿 바꾸고 싶은 행동</h3><p>생각이 나면 실패에 대한 두려움 없이 바로 실행하고, 실행하면서 보완하겠습니다.</p></div>
   </div>
 </section>
-<section class="slide bg-c" data-group="오미숙 · 되고 싶은 나">
+<section class="slide bg-c" data-p="2" data-group="오미숙 · 되고 싶은 나">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#sproutie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">매일 성장! 🌱</span></div>
   <span class="tag">STEP 3 · 되고 싶은 사람</span>
   <h2 class="big h2 o">성장을 멈추지<br>않는 나</h2>
@@ -577,7 +583,7 @@ html.export .cur{display:none}
   </div>
   <div class="box k"><p class="lead">✍️ 나의 정체성 선언<br>나는 매일 한 가지 도전과 실패를 통해 점점 더 성장하는 사람이다.</p></div>
 </section>
-<section class="slide bg-p" data-group="오미숙 · 작은 습관 설계">
+<section class="slide bg-p" data-p="2" data-group="오미숙 · 작은 습관 설계">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#FF9FB0"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">쪼개고 붙이기! 🧩</span></div>
   <span class="tag">STEP 4 · 작은 습관 설계 ①</span>
   <h2 class="big h2 y">반복하고 싶은<br>작은 행동</h2>
@@ -585,13 +591,13 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 만들거나 바꾸고 싶은 습관</h3><p>① 매일 출근 전 독서<br>② 매일 아침 단톡방 관리<br>③ 약속 시간 10분 전에 도착해서 맞이하기</p></div><div class="box c"><h3>📖 적용하고 싶은 책 속 방법 (99쪽~)</h3><p><b>아주 구체적으로 쪼개고 붙여라.</b></p></div>
   </div>
 </section>
-<section class="slide bg-o" data-group="오미숙 · 작은 습관 설계">
+<section class="slide bg-o" data-p="2" data-group="오미숙 · 작은 습관 설계">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#notie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">네 가지 법칙! 📝</span></div>
   <span class="tag">STEP 4 · 작은 습관 설계 ② · 매일 출근 전 독서 외</span>
   <h2 class="big h2 y">네 가지 법칙<br>적용하기</h2>
   <div class="grid g4"><div class="box c"><h3><span class="num">1</span>분명하게 (신호)</h3><p>준비 시간을 알리는 알람이 울리게 하고, 책을 가까이 둡니다.</p></div><div class="box p"><h3><span class="num">2</span>매력적으로 (열망)</h3><p>약속 장소와 출근 후에 내가 먼저 맞이하고 싶고, 책으로 긍정적인 하루를 시작하고 싶습니다.</p></div><div class="box y"><h3><span class="num">3</span>하기 쉽게 (반응)</h3><p>방해되는 행동(정리·휴대폰)을 없애고, 30분 일찍 준비합니다.</p></div><div class="box m"><h3><span class="num">4</span>만족스럽게 (보상)</h3><p>여유가 반복되면서 안정적인 만남과 근무 시간이 되고, 나를 위한 하루로 시작했다는 만족과 감사를 느낍니다.</p></div></div>
 </section>
-<section class="slide bg-m" data-group="오미숙 · 작은 습관 설계">
+<section class="slide bg-m" data-p="2" data-group="오미숙 · 작은 습관 설계">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#FFE29A"></i><svg viewBox="0 0 120 120"><use href="#clocky"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">7시 기상! ⏰</span></div>
   <span class="tag">STEP 4 · 나의 작은 실천 선언</span>
   <h2 class="big h2 w">아침 7시,<br>나의 시간으로</h2>
@@ -601,14 +607,14 @@ html.export .cur{display:none}
   </div>
 </section>
 
-<section class="slide bg-y" data-group="김성현 · 도입">
+<section class="slide bg-y" data-p="3" data-group="김성현 · 도입">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast lg" style="width:min(calc(40*var(--vw)),56vh);aspect-ratio:1"><i class="bgc" style="background:var(--purple)"></i><svg class="dc" style="left:0%;top:0%;width:22%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg class="dc" style="left:74%;top:0%;width:20%" viewBox="0 0 120 120"><use href="#cstar"/></svg><div class="chr" style="left:26%;top:20%;width:48%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><div class="chr" style="left:-6%;top:52%;width:38%"><i class="bd" style="background:#FFE29A"></i><svg viewBox="0 0 120 120"><use href="#coinie"/></svg></div><div class="chr" style="left:68%;top:52%;width:34%"><i class="bd" style="background:#FFDCDC"></i><svg viewBox="0 0 120 120"><use href="#heartie"/></svg></div><span class="bb" style="left:30%;top:-6%">발제 시작! ✏️</span></div>
   <span class="tag">아주 작은 습관의 힘 · 독서모임 발제</span>
   <h1 class="big h1">김성현님의<br>발제문</h1>
   <div class="box c" style="align-self:flex-start;max-width:min(760px,90%)"><p class="lead">“나는 어떤 사람이고,<br>앞으로 어떤 사람이 되고 싶은가?”</p></div>
   <p class="sub">나의 습관 → 변화시키고 싶은 모습 → 되고 싶은 사람 → 작은 습관 설계</p>
 </section>
-<section class="slide bg-c" data-group="김성현 · 나의 습관">
+<section class="slide bg-c" data-p="3" data-group="김성현 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#sproutie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">습관 세 가지! 🌱</span></div>
   <span class="tag">STEP 1 · 나의 습관 한눈에</span>
   <h2 class="big h2 o">자랑하고 싶은<br>습관 세 가지</h2>
@@ -619,7 +625,7 @@ html.export .cur{display:none}
     <div class="box p"><h3>🥉 습관 ③</h3><p>출근하자마자 가계부 작성, 전날 기록을 블로그로 발행</p></div>
   </div>
 </section>
-<section class="slide bg-p" data-group="김성현 · 나의 습관">
+<section class="slide bg-p" data-p="3" data-group="김성현 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#FFDCDC"></i><svg viewBox="0 0 120 120"><use href="#heartie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">운동 시작! 💪</span></div>
   <span class="tag">STEP 1 · 습관 ① 거실 홈트</span>
   <h2 class="big h2 y">아이가 잠들면<br>20분 홈트</h2>
@@ -627,7 +633,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 나의 습관</h3><p>퇴근 후 아이가 잠들면 거실에서 20분 홈트를 합니다.</p></div><div class="box m"><h3>🔑 유지하는 비결</h3><p>눈에 잘 보이는 책상 옆에 물통을 항상 배치해 두어서, 바로 물을 받고 운동을 시작할 수 있도록 해 두었습니다.</p></div><div class="box c"><h3>📖 연결되는 책의 내용</h3><p>눈에 잘 띄는 환경이 행동을 시작하게 한다는 <b>‘분명하게 만들기’</b> 법칙과 연결됩니다.</p></div>
   </div>
 </section>
-<section class="slide bg-m" data-group="김성현 · 나의 습관">
+<section class="slide bg-m" data-p="3" data-group="김성현 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">함께해서 재밌어요! 💬</span></div>
   <span class="tag">STEP 1 · 습관 ② 부부 대화 기록</span>
   <h2 class="big h2 w">부부가 함께<br>하루 기록</h2>
@@ -635,7 +641,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 나의 습관</h3><p>자기 전에 부부가 식탁에 앉아 하루에 있었던 주요한 일을 기록하고, 짧게 대화를 나누고 기록합니다.</p></div><div class="box p"><h3>🔑 유지하는 비결</h3><p>강제성이 덜 느껴지도록, 힘들면 힘든 대로 빼먹기도 하고 누워서도 하며 유연하게 행동합니다.</p></div><div class="box c"><h3>📖 연결되는 책의 내용</h3><p>지속하려면 재미가 있어야 하고, 그 재미는 다른 사람과 함께할 때 나올 수 있습니다.</p></div>
   </div>
 </section>
-<section class="slide bg-o" data-group="김성현 · 나의 습관">
+<section class="slide bg-o" data-p="3" data-group="김성현 · 나의 습관">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#coinie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">가계부 쓰는 중! 🪙</span></div>
   <span class="tag">STEP 1 · 습관 ③ 가계부와 블로그</span>
   <h2 class="big h2 y">출근하자마자<br>기록 쌓기</h2>
@@ -643,7 +649,7 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 나의 습관</h3><p>회사에 출근하자마자 전날 가계부를 작성하고, 전날 부부 대화 기록과 전날 있었던 일 3가지를 블로그로 발행합니다.</p></div><div class="box m"><h3>🔑 유지하는 비결</h3><p>블로그에 시작한 지 며칠인지 표시해 두어, 지금까지 유지해 온 것이 아깝게 느껴지도록 했습니다.</p></div><div class="box c"><h3>📖 연결되는 책의 내용</h3><p>이미 하는 행동에 새 행동을 이어 붙이는 <b>‘습관 쌓기’</b>와 연결됩니다.</p></div>
   </div>
 </section>
-<section class="slide bg-c" data-group="김성현 · 나를 발견하기">
+<section class="slide bg-c" data-p="3" data-group="김성현 · 나를 발견하기">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#FFDCDC"></i><svg viewBox="0 0 120 120"><use href="#heartie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">뜨끔! 😅</span></div>
   <span class="tag">STEP 2 · 변화시키고 싶은 모습</span>
   <h2 class="big h2 p">뜨끔했던<br>내용은?</h2>
@@ -654,7 +660,7 @@ html.export .cur{display:none}
     <div class="box chart"><div class="ct">📊 이 발제문이 인용한 책 쪽수 <small>(쪽)</small></div><div class="cols" style="--max:170;--bh:clamp(36px,9vh,70px)"><div class="colw"><span class="pl" style="--k:0"><b class="cu" data-count="170">170</b>쪽</span><i class="bar pop" style="--v:170;--k:0;background:var(--yellow)"></i><span class="cn">뜨끔했던 내용</span></div><div class="colw"><span class="pl" style="--k:1"><b class="cu" data-count="65">65</b>쪽</span><i class="bar pop" style="--v:65;--k:1;background:var(--mint)"></i><span class="cn">적용할 방법</span></div></div></div>
   </div>
 </section>
-<section class="slide bg-y" data-group="김성현 · 되고 싶은 나">
+<section class="slide bg-y" data-p="3" data-group="김성현 · 되고 싶은 나">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#sproutie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">조금씩 성장! 🌱</span></div>
   <span class="tag">STEP 3 · 되고 싶은 사람</span>
   <h2 class="big h2 o">내가 되고 싶은<br>사람</h2>
@@ -663,7 +669,7 @@ html.export .cur{display:none}
   </div>
   <div class="box k"><p class="lead">✍️ 나의 정체성 선언<br>나는 작은 습관을 지속적으로 이어가는 사람입니다.</p></div>
 </section>
-<section class="slide bg-p" data-group="김성현 · 작은 습관 설계">
+<section class="slide bg-p" data-p="3" data-group="김성현 · 작은 습관 설계">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#duck"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:#CFE3FA"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">칭찬해요! 👏</span></div>
   <span class="tag">STEP 4 · 작은 습관 설계 ①</span>
   <h2 class="big h2 y">유튜브 대신<br>다른 행동으로</h2>
@@ -671,13 +677,13 @@ html.export .cur{display:none}
     <div class="box y"><h3>🎯 만들거나 바꾸고 싶은 습관</h3><p>유튜브를 보고 싶은 마음이 들 때, 세수를 하거나 영어 리스닝을 하거나 목사님 설교를 듣는 것으로 행동 방식을 바꾸고 싶습니다.</p></div><div class="box m"><h3>📖 적용하고 싶은 책 속 방법 · 습관은 자존감이다 (65쪽)</h3><p>좋은 습관은 처음에는 억지로 할 수밖에 없는 상황일 때가 많다. 그럴 때마다 자존감을 높일 수 있는 칭찬을 스스로에게 해 주겠습니다.</p></div>
   </div>
 </section>
-<section class="slide bg-m" data-group="김성현 · 작은 습관 설계">
+<section class="slide bg-m" data-p="3" data-group="김성현 · 작은 습관 설계">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#tree"/></svg></div><div class="cast" style="width:min(calc(20*var(--vw)),30vh);aspect-ratio:1"><div class="chr" style="left:0%;top:0%;width:100%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#sproutie"/></svg></div><svg class="dc" style="left:-32%;top:62%;width:24%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:88%;top:-6%;width:22%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-62%;top:2%">네 가지 법칙! 🧩</span></div>
   <span class="tag">STEP 4 · 작은 습관 설계 ②</span>
   <h2 class="big h2 w">네 가지 법칙<br>적용하기</h2>
   <div class="grid g4"><div class="box c"><h3><span class="num">1</span>분명하게 (신호)</h3><p>눈에 보이는 곳에 타이머 시계를 두고 50분에 한 번씩 일어나서 걷고 세수를 하고 오도록 행동을 정확하게 설계해 두겠습니다.</p></div><div class="box p"><h3><span class="num">2</span>매력적으로 (열망)</h3><p>횟수를 기록해 한 개씩 쌓일 때마다 스스로 칭찬합니다. 함께하는 동료들과 인증 챌린지를 하겠습니다.</p></div><div class="box y"><h3><span class="num">3</span>하기 쉽게 (반응)</h3><p>나쁜 행동을 줄이기 위해, 50분에 한 번 일어날 때는 스마트폰을 자리에 두고 움직이겠습니다.</p></div><div class="box o"><h3><span class="num">4</span>만족스럽게 (보상)</h3><p>한 달 동안 있었던 세수 총 횟수를 기록해 보겠습니다.</p></div></div>
 </section>
-<section class="slide bg-c" data-group="김성현 · 실천 선언과 질문">
+<section class="slide bg-c" data-p="3" data-group="김성현 · 실천 선언과 질문">
   <div class="ground"><svg style="left:1%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:17%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:36%" viewBox="0 0 120 120"><use href="#flower"/></svg><svg style="left:60%" viewBox="0 0 120 120"><use href="#duck"/></svg><svg style="left:79%" viewBox="0 0 120 120"><use href="#tree"/></svg><svg style="left:92%" viewBox="0 0 120 120"><use href="#flower"/></svg></div><div class="cast" style="width:min(calc(30*var(--vw)),36vh);aspect-ratio:1.5"><div class="chr" style="left:0%;top:0%;width:40%"><i class="bd" style="background:var(--yellow)"></i><svg viewBox="0 0 120 120"><use href="#girl"/></svg></div><div class="chr" style="left:60%;top:0%;width:40%"><i class="bd" style="background:var(--mint)"></i><svg viewBox="0 0 120 120"><use href="#bookie"/></svg></div><div class="chr" style="left:31%;top:30%;width:38%"><i class="bd" style="background:var(--purple)"></i><svg viewBox="0 0 120 120"><use href="#sproutie"/></svg></div><svg class="dc" style="left:-10%;top:62%;width:12%" viewBox="0 0 120 120"><use href="#cspark"/></svg><svg class="dc" style="left:94%;top:-6%;width:13%" viewBox="0 0 120 120"><use href="#cstar"/></svg><span class="bb" style="left:-40%;top:0%">함께해요! 💛</span></div>
   <span class="tag">STEP 4·5 · 실천 선언과 질문</span>
   <h2 class="big h2 o">실천 선언과<br>질문</h2>
@@ -714,7 +720,7 @@ html.export .cur{display:none}
   var sbl=document.getElementById('sbl'),open={},gEls=[],iEls=[];
   groups.forEach(function(g,gi){
     var box=document.createElement('div');box.className='grp';
-    var hb=document.createElement('button');hb.className='gh c'+(gi%2);hb.setAttribute('aria-expanded','false');
+    var hb=document.createElement('button');hb.className='gh c'+Math.max(0,['윤지혜','주은정','오미숙','김성현'].indexOf(String(g.name).split(' · ')[0]));hb.setAttribute('aria-expanded','false');
     hb.innerHTML='<span class="ar">▸</span><span class="nm"></span><span class="cnt">'+g.idx.length+'쪽</span>';
     hb.querySelector('.nm').textContent=g.name;
     hb.onclick=function(){open[gi]=!open[gi];paintSb()};
