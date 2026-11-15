@@ -211,7 +211,7 @@ html.export .cur{display:none}
 .slide[data-p] .cast .bb{box-shadow:4px 4px 0 var(--pc)}
 </style>
 </head>
-<body><aside class="sidebar" id="sb" aria-label="페이지 목차"><span class="sb-label">목차</span><div id="sbl"></div></aside>
+<body><aside class="sidebar" id="sb" aria-label="페이지 목차"><span class="sb-label" id="sbt" role="button" tabindex="0" title="클릭하면 모든 그룹이 접힙니다" style="cursor:pointer;user-select:none">목차</span><div id="sbl"></div></aside>
 <div class="toolbar" id="tbar">
   <div class="pager"><div class="dots" id="dots"></div><span class="pg" id="pg">1 / 20</span></div>
   <button class="tb" id="tog" aria-expanded="true" aria-label="사이드바 접기·열기" title="목록 (S)">☰ 목록</button>
@@ -765,6 +765,9 @@ html.export .cur{display:none}
     if((e.key==='s'||e.key==='S')&&!e.ctrlKey&&!e.metaKey&&!e.altKey)toggle()});
   window.a11Export=function(){root.classList.add('export');cancelAnimationFrame(raf);
     [].forEach.call(document.querySelectorAll('.cu'),function(e){var d=+e.getAttribute('data-dec')||0;e.textContent=fmt(+e.getAttribute('data-count'),d)})};
+  var sbt=document.getElementById('sbt'),sbEl=document.getElementById('sb');
+  function foldAll(){open={};paintSb();sbEl.scrollTop=0;sbl.scrollTop=0}
+  sbt.onclick=foldAll;sbt.onkeydown=function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();foldAll()}};
   syncTog();go(0);
 })();
 </script>
